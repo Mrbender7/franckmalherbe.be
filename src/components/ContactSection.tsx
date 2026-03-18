@@ -25,9 +25,8 @@ const ContactSection = () => {
         <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-8">
           Contact
         </h2>
-        <p className="text-lg text-foreground leading-relaxed mb-10 max-w-xl">
+        <p className="text-lg text-muted-foreground leading-relaxed mb-10 max-w-xl">
           Vous avez un projet ou une question ? N'hésitez pas à me contacter.
-          Je serais ravi d'échanger avec vous.
         </p>
         <div className="flex flex-col sm:flex-row items-start gap-4">
           <a
@@ -41,7 +40,7 @@ const ContactSection = () => {
             href="https://linkedin.com/in/franck-malherbe-7b64201a4"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-border text-primary font-display text-sm font-semibold hover:bg-muted transition-colors duration-200"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-border text-foreground font-display text-sm font-semibold hover:bg-secondary transition-colors duration-200"
           >
             <Linkedin className="w-4 h-4" />
             LinkedIn

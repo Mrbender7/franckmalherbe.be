@@ -1,27 +1,18 @@
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center section-padding">
+    <section className="min-h-[80vh] flex items-center justify-center section-padding">
       <div className="max-w-3xl mx-auto text-center opacity-0 animate-fade-in-up">
-        <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight leading-tight mb-6">
+        <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight mb-6">
           Franck Malherbe
         </h1>
-        <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed max-w-xl mx-auto mb-10">
-          Expert en archivistique · Consultant · Professionnel de l'information
+        <p className="text-lg md:text-xl text-primary font-display font-semibold mb-6">
+          Créateur d'outils numériques & Expert en archivistique
         </p>
-        <div className="flex items-center justify-center gap-4">
-          <a
-            href="#contact"
-            className="inline-flex items-center px-6 py-3 rounded-lg bg-primary text-primary-foreground font-display text-sm font-semibold hover:opacity-90 transition-opacity duration-200"
-          >
-            Me contacter
-          </a>
-          <a
-            href="#about"
-            className="inline-flex items-center px-6 py-3 rounded-lg border border-border text-primary font-display text-sm font-semibold hover:bg-muted transition-colors duration-200"
-          >
-            En savoir plus
-          </a>
-        </div>
+        <p className="text-base md:text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto">
+          Basé à Liège, en Belgique. Passionné par la gestion rigoureuse des données
+          (archivistique) et le développement d'outils numériques éthiques qui respectent
+          la vie privée des utilisateurs. Ce portail centralise mes projets personnels et professionnels.
+        </p>
       </div>
     </section>
   );
