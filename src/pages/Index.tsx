@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const FadeInOnScroll = ({ children, delay = 0 }: { children: React.ReactNode; delay?: number }) => (
   <motion.div
@@ -71,9 +72,9 @@ const Index = () => {
                 <span className="text-xs font-bold text-primary uppercase tracking-widest">APK signé</span>
                 <span className="text-sm text-muted-foreground italic">Bientôt disponible</span>
               </div>
-              <a href="/disclaimer" className="text-xs text-muted-foreground hover:text-primary underline underline-offset-2 transition-colors">
+              <Link to="/disclaimer" className="text-xs text-muted-foreground hover:text-primary underline underline-offset-2 transition-colors">
                 Décharge de responsabilité →
-              </a>
+              </Link>
             </div>
             </FadeInOnScroll>
 
