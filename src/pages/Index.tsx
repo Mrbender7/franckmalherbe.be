@@ -70,11 +70,19 @@ const Index = () => {
               </p>
               <div className="flex items-center justify-between pt-2">
                 <span className="text-xs font-bold text-primary uppercase tracking-widest">APK signé</span>
-                <span className="text-sm text-muted-foreground italic">Bientôt disponible</span>
+                <a href="/InsudosePro_v2.apk" download className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-semibold hover:opacity-90 transition-opacity">
+                  <svg viewBox="0 0 24 24" className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                  Télécharger v2
+                </a>
               </div>
-              <Link to="/disclaimer" className="text-xs text-muted-foreground hover:text-primary underline underline-offset-2 transition-colors">
-                Décharge de responsabilité →
-              </Link>
+              <div className="flex flex-col gap-1.5">
+                <Link to="/installation" className="text-xs text-muted-foreground hover:text-primary underline underline-offset-2 transition-colors">
+                  Guide d'installation (sources inconnues) →
+                </Link>
+                <Link to="/disclaimer" className="text-xs text-muted-foreground hover:text-primary underline underline-offset-2 transition-colors">
+                  Décharge de responsabilité →
+                </Link>
+              </div>
             </div>
             </FadeInOnScroll>
 
