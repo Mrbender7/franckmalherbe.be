@@ -36,7 +36,7 @@ const Index = () => {
           <p className="text-xl md:text-2xl text-muted-foreground serif-italic font-medium max-w-2xl mx-auto md:mx-0 leading-snug">
             Créateur d'outils numériques & Expert en archivistique
           </p>
-        </header>
+        </motion.header>
 
         {/* Intro */}
         <section className="grid md:grid-cols-3 gap-12 items-start border-l-2 border-secondary/30 pl-8 ml-2">
