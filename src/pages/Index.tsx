@@ -61,7 +61,7 @@ const Index = () => {
             <FadeInOnScroll>
             <div className="glass-card p-8 rounded-2xl space-y-4">
               <div className="flex items-center gap-3">
-                <span className="text-2xl">💉</span>
+                <img src="/logo_insudose.png" alt="Insudose Pro" className="w-10 h-10 rounded-lg object-contain" />
                 <h3 className="text-xl font-bold gradient-text">Insudose Pro</h3>
               </div>
               <p className="text-muted-foreground text-sm leading-relaxed">
@@ -81,8 +81,8 @@ const Index = () => {
             <FadeInOnScroll delay={0.1}>
             <div className="glass-card p-8 rounded-2xl space-y-4">
               <div className="flex items-center gap-3">
-                <span className="text-2xl">🎙️</span>
-                <h3 className="text-xl font-bold gradient-text">Radio Sphere</h3>
+                <img src="/logo_radiosphere.png" alt="RadioSphere.be" className="w-10 h-10 rounded-lg object-contain" />
+                <h3 className="text-xl font-bold gradient-text">RadioSphere.be</h3>
               </div>
               <p className="text-muted-foreground text-sm leading-relaxed">
                 Plateforme de diffusion radio numérique alternative. Pour une radio engagée et indépendante.
@@ -99,7 +99,7 @@ const Index = () => {
             <FadeInOnScroll delay={0.2}>
             <div className="glass-card p-8 rounded-2xl space-y-4">
               <div className="flex items-center gap-3">
-                <span className="text-2xl">🎧</span>
+                <img src="/logo_podcastsphere.png" alt="Podcast Sphere" className="w-10 h-10 rounded-lg object-contain" />
                 <h3 className="text-xl font-bold gradient-text">Podcast Sphere</h3>
               </div>
               <p className="text-muted-foreground text-sm leading-relaxed">
@@ -118,7 +118,7 @@ const Index = () => {
             <FadeInOnScroll delay={0.3}>
             <div className="glass-card p-8 rounded-2xl space-y-4">
               <div className="flex items-center gap-3">
-                <span className="text-2xl">🌙</span>
+                <img src="/logo_nightsphere.png" alt="Night Sphere" className="w-10 h-10 rounded-lg object-contain" />
                 <h3 className="text-xl font-bold gradient-text">Night Sphere</h3>
               </div>
               <p className="text-muted-foreground text-sm leading-relaxed">
