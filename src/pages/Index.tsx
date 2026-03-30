@@ -26,7 +26,7 @@ const Index = () => {
       <div className="max-w-4xl mx-auto px-6 py-16 lg:py-24 space-y-24">
 
         {/* Header */}
-        <header className="space-y-6 text-center md:text-left">
+        <motion.header initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, ease: "easeOut" }} className="space-y-6 text-center md:text-left">
           <div className="inline-block px-4 py-1.5 rounded-full bg-muted border border-border text-muted-foreground text-xs font-semibold uppercase tracking-widest">
             Portail Professionnel — Liège, Belgique
           </div>
