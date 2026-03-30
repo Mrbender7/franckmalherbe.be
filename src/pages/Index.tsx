@@ -1,3 +1,16 @@
+import { motion } from "framer-motion";
+
+const FadeInOnScroll = ({ children, delay = 0 }: { children: React.ReactNode; delay?: number }) => (
+  <motion.div
+    initial={{ opacity: 0, y: 24 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    viewport={{ once: true, margin: "-60px" }}
+    transition={{ duration: 0.5, delay, ease: "easeOut" }}
+  >
+    {children}
+  </motion.div>
+);
+
 const GooglePlayBadge = () => (
   <div className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-muted/50 border border-border text-muted-foreground text-xs font-medium">
     <svg viewBox="0 0 24 24" className="w-4 h-4" fill="currentColor">
