@@ -95,6 +95,8 @@ const Index = () => {
               </div>
             </div>
             </FadeInOnScroll>
+            {/* Podcast Sphere */}
+            <FadeInOnScroll delay={0.2}>
             <div className="glass-card p-8 rounded-2xl space-y-4">
               <div className="flex items-center gap-3">
                 <span className="text-2xl">🎧</span>
@@ -110,8 +112,10 @@ const Index = () => {
                 <GooglePlayBadge />
               </div>
             </div>
+            </FadeInOnScroll>
 
             {/* Night Sphere */}
+            <FadeInOnScroll delay={0.3}>
             <div className="glass-card p-8 rounded-2xl space-y-4">
               <div className="flex items-center gap-3">
                 <span className="text-2xl">🌙</span>
@@ -124,6 +128,7 @@ const Index = () => {
                 <GooglePlayBadge />
               </div>
             </div>
+            </FadeInOnScroll>
 
           </div>
         </section>
