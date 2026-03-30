@@ -80,6 +80,9 @@ const Index = () => {
                 </a>
               </div>
               <div className="flex flex-col gap-1.5">
+                <Link to="/insudose" className="text-xs text-muted-foreground hover:text-primary underline underline-offset-2 transition-colors">
+                  {t("insudose.learnMore")}
+                </Link>
                 <Link to="/installation" className="text-xs text-muted-foreground hover:text-primary underline underline-offset-2 transition-colors">
                   {t("insudose.installGuide")}
                 </Link>

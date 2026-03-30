@@ -4,6 +4,7 @@ import LanguageSelector from "./components/LanguageSelector";
 import Index from "./pages/Index";
 import Disclaimer from "./pages/Disclaimer";
 import Installation from "./pages/Installation";
+import InsudoseDetail from "./pages/InsudoseDetail";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/" element={<Index />} />
           <Route path="/disclaimer" element={<Disclaimer />} />
           <Route path="/installation" element={<Installation />} />
+          <Route path="/insudose" element={<InsudoseDetail />} />
         </Routes>
         <LanguageSelector />
       </HashRouter>
