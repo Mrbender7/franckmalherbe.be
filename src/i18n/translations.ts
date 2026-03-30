@@ -327,7 +327,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     "install.step3.strong": "Installieren",
     "install.step3.text_after": ". Die App erscheint dann in Ihrer App-Schublade.",
     "install.step4.title": "Berechtigung widerrufen (empfohlen)",
-    "install.step4.text": "Gehen Sie nach Abschluss der Installation zurück zu den Einstellungen und deaktivieren Sie die Berechtigung „Unbekannte Quellen" für Ihren Browser. Dies erhöht die Sicherheit Ihres Geräts.",
+    "install.step4.text": "Gehen Sie nach Abschluss der Installation zurück zu den Einstellungen und deaktivieren Sie die Berechtigung \"Unbekannte Quellen\" für Ihren Browser. Dies erhöht die Sicherheit Ihres Geräts.",
     "install.security.title": "Sicherheit",
     "install.security.text_before": "Die APK-Datei ist ",
     "install.security.strong": "digital signiert",
