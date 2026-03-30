@@ -58,6 +58,7 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
             {/* Insudose Pro */}
+            <FadeInOnScroll>
             <div className="glass-card p-8 rounded-2xl space-y-4">
               <div className="flex items-center gap-3">
                 <span className="text-2xl">💉</span>
@@ -74,8 +75,10 @@ const Index = () => {
                 Décharge de responsabilité →
               </a>
             </div>
+            </FadeInOnScroll>
 
             {/* Radio Sphere */}
+            <FadeInOnScroll delay={0.1}>
             <div className="glass-card p-8 rounded-2xl space-y-4">
               <div className="flex items-center gap-3">
                 <span className="text-2xl">🎙️</span>
@@ -91,8 +94,7 @@ const Index = () => {
                 <GooglePlayBadge />
               </div>
             </div>
-
-            {/* Podcast Sphere */}
+            </FadeInOnScroll>
             <div className="glass-card p-8 rounded-2xl space-y-4">
               <div className="flex items-center gap-3">
                 <span className="text-2xl">🎧</span>
