@@ -1,3 +1,16 @@
+import { motion } from "framer-motion";
+
+const FadeInOnScroll = ({ children, delay = 0 }: { children: React.ReactNode; delay?: number }) => (
+  <motion.div
+    initial={{ opacity: 0, y: 24 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    viewport={{ once: true, margin: "-60px" }}
+    transition={{ duration: 0.5, delay, ease: "easeOut" }}
+  >
+    {children}
+  </motion.div>
+);
+
 const GooglePlayBadge = () => (
   <div className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-muted/50 border border-border text-muted-foreground text-xs font-medium">
     <svg viewBox="0 0 24 24" className="w-4 h-4" fill="currentColor">
@@ -13,7 +26,7 @@ const Index = () => {
       <div className="max-w-4xl mx-auto px-6 py-16 lg:py-24 space-y-24">
 
         {/* Header */}
-        <header className="space-y-6 text-center md:text-left">
+        <motion.header initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, ease: "easeOut" }} className="space-y-6 text-center md:text-left">
           <div className="inline-block px-4 py-1.5 rounded-full bg-muted border border-border text-muted-foreground text-xs font-semibold uppercase tracking-widest">
             Portail Professionnel — Liège, Belgique
           </div>
@@ -23,7 +36,7 @@ const Index = () => {
           <p className="text-xl md:text-2xl text-muted-foreground serif-italic font-medium max-w-2xl mx-auto md:mx-0 leading-snug">
             Créateur d'outils numériques & Expert en archivistique
           </p>
-        </header>
+        </motion.header>
 
         {/* Intro */}
         <section className="grid md:grid-cols-3 gap-12 items-start border-l-2 border-secondary/30 pl-8 ml-2">
@@ -45,6 +58,7 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
             {/* Insudose Pro */}
+            <FadeInOnScroll>
             <div className="glass-card p-8 rounded-2xl space-y-4">
               <div className="flex items-center gap-3">
                 <span className="text-2xl">💉</span>
@@ -61,8 +75,10 @@ const Index = () => {
                 Décharge de responsabilité →
               </a>
             </div>
+            </FadeInOnScroll>
 
             {/* Radio Sphere */}
+            <FadeInOnScroll delay={0.1}>
             <div className="glass-card p-8 rounded-2xl space-y-4">
               <div className="flex items-center gap-3">
                 <span className="text-2xl">🎙️</span>
@@ -78,8 +94,9 @@ const Index = () => {
                 <GooglePlayBadge />
               </div>
             </div>
-
+            </FadeInOnScroll>
             {/* Podcast Sphere */}
+            <FadeInOnScroll delay={0.2}>
             <div className="glass-card p-8 rounded-2xl space-y-4">
               <div className="flex items-center gap-3">
                 <span className="text-2xl">🎧</span>
@@ -95,8 +112,10 @@ const Index = () => {
                 <GooglePlayBadge />
               </div>
             </div>
+            </FadeInOnScroll>
 
             {/* Night Sphere */}
+            <FadeInOnScroll delay={0.3}>
             <div className="glass-card p-8 rounded-2xl space-y-4">
               <div className="flex items-center gap-3">
                 <span className="text-2xl">🌙</span>
@@ -109,6 +128,7 @@ const Index = () => {
                 <GooglePlayBadge />
               </div>
             </div>
+            </FadeInOnScroll>
 
           </div>
         </section>
