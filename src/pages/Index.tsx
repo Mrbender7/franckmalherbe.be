@@ -175,16 +175,15 @@ const Index = () => {
         </section>
 
         {/* Footer */}
-        <footer className="pt-16 border-t border-border grid md:grid-cols-2 gap-12 items-end text-sm text-muted-foreground">
-          <div className="space-y-3">
+        <footer className="pt-16 border-t border-border flex flex-col items-center gap-8 text-sm text-muted-foreground">
+          <div className="space-y-3 text-center">
             <p className="serif-italic">{t("footer.contact")}</p>
             <a href="mailto:contact@franckmalherbe.be" className="text-xl font-bold gradient-text hover:opacity-80 transition-opacity block">
               contact@franckmalherbe.be
             </a>
           </div>
-          <div className="md:text-right">
-            <p className="text-xs text-muted-foreground/60">{t("footer.copy")}</p>
-          </div>
+          <img src="/logo.png" alt="Franck Malherbe" className="w-16 h-16 rounded-xl opacity-80" />
+          <p className="text-xs text-muted-foreground/60">{t("footer.copy")}</p>
         </footer>
 
       </div>

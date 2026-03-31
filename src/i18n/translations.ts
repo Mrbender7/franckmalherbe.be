@@ -8,7 +8,7 @@ export const translations: Record<Lang, Record<string, string>> = {
 
     // Intro
     "intro.title": "Présentation",
-    "intro.text": "Basé à Liège, en Belgique. Passionné par la gestion rigoureuse des données et le développement d'outils numériques éthiques qui respectent la vie privée des utilisateurs. Ce portail centralise mes projets personnels et professionnels.",
+    "intro.text": "Basé à Liège, en Belgique. Passionné par la gestion rigoureuse des données et le développement d'outils numériques éthiques qui respectent la vie privée des utilisateurs. Ce portail centralise mes projets personnels.",
 
     // Projects
     "projects.title": "Mes Projets",
@@ -146,7 +146,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     "header.badge": "Professional Portal — Liège, Belgium",
     "header.subtitle": "Digital Tools Creator & Archival Science Expert",
     "intro.title": "About",
-    "intro.text": "Based in Liège, Belgium. Passionate about rigorous data management and the development of ethical digital tools that respect user privacy. This portal centralizes my personal and professional projects.",
+    "intro.text": "Based in Liège, Belgium. Passionate about rigorous data management and the development of ethical digital tools that respect user privacy. This portal centralizes my personal projects.",
     "projects.title": "My Projects",
     "projects.comingSoon": "Coming soon",
     "insudose.desc": "Smart insulin calculator for diabetes management. Ethical and secure approach. Local AES encryption — your data never leaves your phone.",
@@ -264,7 +264,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     "header.badge": "Professioneel Portaal — Luik, België",
     "header.subtitle": "Maker van digitale tools & Expert in archiefwetenschap",
     "intro.title": "Voorstelling",
-    "intro.text": "Gevestigd in Luik, België. Gepassioneerd door rigoureus gegevensbeheer en de ontwikkeling van ethische digitale tools die de privacy van gebruikers respecteren. Dit portaal centraliseert mijn persoonlijke en professionele projecten.",
+    "intro.text": "Gevestigd in Luik, België. Gepassioneerd door rigoureus gegevensbeheer en de ontwikkeling van ethische digitale tools die de privacy van gebruikers respecteren. Dit portaal centraliseert mijn persoonlijke projecten.",
     "projects.title": "Mijn Projecten",
     "projects.comingSoon": "Binnenkort beschikbaar",
     "insudose.desc": "Slimme insulinecalculator voor diabetesbeheer. Ethische en beveiligde aanpak. Lokale AES-versleuteling — uw gegevens verlaten nooit uw telefoon.",
@@ -382,7 +382,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     "header.badge": "Professionelles Portal — Lüttich, Belgien",
     "header.subtitle": "Entwickler digitaler Werkzeuge & Experte für Archivwissenschaft",
     "intro.title": "Vorstellung",
-    "intro.text": "Ansässig in Lüttich, Belgien. Leidenschaftlich engagiert für rigoroses Datenmanagement und die Entwicklung ethischer digitaler Werkzeuge, die die Privatsphäre der Nutzer respektieren. Dieses Portal bündelt meine persönlichen und beruflichen Projekte.",
+    "intro.text": "Ansässig in Lüttich, Belgien. Leidenschaftlich engagiert für rigoroses Datenmanagement und die Entwicklung ethischer digitaler Werkzeuge, die die Privatsphäre der Nutzer respektieren. Dieses Portal bündelt meine persönlichen Projekte.",
     "projects.title": "Meine Projekte",
     "projects.comingSoon": "Demnächst verfügbar",
     "insudose.desc": "Intelligenter Insulinrechner für das Diabetesmanagement. Ethischer und sicherer Ansatz. Lokale AES-Verschlüsselung — Ihre Daten verlassen nie Ihr Telefon.",
