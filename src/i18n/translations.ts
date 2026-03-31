@@ -382,7 +382,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     "header.badge": "Professionelles Portal — Lüttich, Belgien",
     "header.subtitle": "Entwickler digitaler Werkzeuge & Experte für Archivwissenschaft",
     "intro.title": "Vorstellung",
-    "intro.text": "Ansässig in Lüttich, Belgien. Leidenschaftlich engagiert für rigoroses Datenmanagement und die Entwicklung ethischer digitaler Werkzeuge, die die Privatsphäre der Nutzer respektieren. Dieses Portal bündelt meine persönlichen und beruflichen Projekte.",
+    "intro.text": "Ansässig in Lüttich, Belgien. Leidenschaftlich engagiert für rigoroses Datenmanagement und die Entwicklung ethischer digitaler Werkzeuge, die die Privatsphäre der Nutzer respektieren. Dieses Portal bündelt meine persönlichen Projekte.",
     "projects.title": "Meine Projekte",
     "projects.comingSoon": "Demnächst verfügbar",
     "insudose.desc": "Intelligenter Insulinrechner für das Diabetesmanagement. Ethischer und sicherer Ansatz. Lokale AES-Verschlüsselung — Ihre Daten verlassen nie Ihr Telefon.",
