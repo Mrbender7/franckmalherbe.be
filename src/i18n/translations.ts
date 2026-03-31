@@ -264,7 +264,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     "header.badge": "Professioneel Portaal — Luik, België",
     "header.subtitle": "Maker van digitale tools & Expert in archiefwetenschap",
     "intro.title": "Voorstelling",
-    "intro.text": "Gevestigd in Luik, België. Gepassioneerd door rigoureus gegevensbeheer en de ontwikkeling van ethische digitale tools die de privacy van gebruikers respecteren. Dit portaal centraliseert mijn persoonlijke en professionele projecten.",
+    "intro.text": "Gevestigd in Luik, België. Gepassioneerd door rigoureus gegevensbeheer en de ontwikkeling van ethische digitale tools die de privacy van gebruikers respecteren. Dit portaal centraliseert mijn persoonlijke projecten.",
     "projects.title": "Mijn Projecten",
     "projects.comingSoon": "Binnenkort beschikbaar",
     "insudose.desc": "Slimme insulinecalculator voor diabetesbeheer. Ethische en beveiligde aanpak. Lokale AES-versleuteling — uw gegevens verlaten nooit uw telefoon.",
