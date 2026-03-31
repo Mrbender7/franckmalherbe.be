@@ -8,7 +8,7 @@ export const translations: Record<Lang, Record<string, string>> = {
 
     // Intro
     "intro.title": "Présentation",
-    "intro.text": "Basé à Liège, en Belgique. Passionné par la gestion rigoureuse des données et le développement d'outils numériques éthiques qui respectent la vie privée des utilisateurs. Ce portail centralise mes projets personnels et professionnels.",
+    "intro.text": "Basé à Liège, en Belgique. Passionné par la gestion rigoureuse des données et le développement d'outils numériques éthiques qui respectent la vie privée des utilisateurs. Ce portail centralise mes projets personnels.",
 
     // Projects
     "projects.title": "Mes Projets",
