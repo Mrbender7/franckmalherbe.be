@@ -114,7 +114,7 @@ const Index = () => {
                 <a href="https://radiosphere.be" target="_blank" rel="noopener noreferrer" className="text-sm text-primary hover:text-accent transition-colors font-medium">
                   {t("radio.visit")}
                 </a>
-                <GooglePlayBadge href="https://play.google.com/store/apps/details?id=com.fhm.radiosphere&hl=fr" />
+                <GooglePlayBadge href="https://play.google.com/store/apps/details?id=com.fhm.radiosphere" />
               </div>
             </div>
             </FadeInOnScroll>
