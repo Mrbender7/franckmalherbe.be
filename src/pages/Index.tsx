@@ -13,8 +13,15 @@ const FadeInOnScroll = ({ children, delay = 0 }: { children: React.ReactNode; de
   </motion.div>
 );
 
-const GooglePlayBadge = () => {
+const GooglePlayBadge = ({ href }: { href?: string }) => {
   const { t } = useLanguage();
+  if (href) {
+    return (
+      <a href={href} target="_blank" rel="noopener noreferrer">
+        <img src="/google-play-badge.png" alt="Get it on Google Play" className="h-10 object-contain" />
+      </a>
+    );
+  }
   return (
     <div className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-muted/50 border border-border text-muted-foreground text-xs font-medium">
       <svg viewBox="0 0 24 24" className="w-4 h-4" fill="currentColor">
