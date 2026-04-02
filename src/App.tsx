@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { LanguageProvider } from "./i18n/LanguageContext";
 import LanguageSelector from "./components/LanguageSelector";
 import ScrollToTop from "./components/ScrollToTop";
@@ -10,7 +10,7 @@ import InsudoseDetail from "./pages/InsudoseDetail";
 function App() {
   return (
     <LanguageProvider>
-      <HashRouter>
+      <BrowserRouter>
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Index />} />
@@ -19,7 +19,7 @@ function App() {
           <Route path="/insudose" element={<InsudoseDetail />} />
         </Routes>
         <LanguageSelector />
-      </HashRouter>
+      </BrowserRouter>
     </LanguageProvider>
   );
 }
