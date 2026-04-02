@@ -19,7 +19,7 @@ function App() {
           <Route path="/insudose" element={<InsudoseDetail />} />
         </Routes>
         <LanguageSelector />
-      </HashRouter>
+      </BrowserRouter>
     </LanguageProvider>
   );
 }
