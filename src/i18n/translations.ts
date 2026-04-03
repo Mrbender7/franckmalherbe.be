@@ -22,7 +22,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     "insudose.disclaimer": "Décharge de responsabilité →",
 
     // RadioSphere
-    "radio.desc": "Plateforme de diffusion radio numérique alternative. Pour une radio engagée et indépendante.",
+    "radio.desc": "Plateforme de diffusion radio numérique alternative. Pour une radio engagée, indépendante et gratuite ! \n\nBienvenue sur la version officielle de RadioSphere.be ! Profitez de plus de 50 000 radios sans publicité et découvrez notre fonction exclusive : la TimeBack Machine. Amélioration des performances et optimisations globales pour une écoute parfaite.",
     "radio.visit": "Visiter radiosphere.be ↗",
 
     // Podcast
