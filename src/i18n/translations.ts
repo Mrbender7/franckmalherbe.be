@@ -4,7 +4,7 @@ export const translations: Record<Lang, Record<string, string>> = {
   fr: {
     // Header
     "header.badge": "Portail Professionnel — Liège, Belgique",
-    "header.subtitle": "Créateur d'outils numériques & Expert en archivistique",
+    "header.subtitle": "Créateur d'outils numériques",
 
     // Intro
     "intro.title": "Présentation",
