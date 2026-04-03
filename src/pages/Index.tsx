@@ -79,7 +79,7 @@ const Index = () => {
                   {t("insudose.badge")}
                 </span>
               </div>
-              <p className="text-muted-foreground text-base leading-relaxed max-w-2xl">
+              <p className="text-muted-foreground text-base leading-relaxed max-w-2xl whitespace-pre-wrap">
                 {t("insudose.desc")}
               </p>
               <div className="flex items-center gap-4 pt-2">
