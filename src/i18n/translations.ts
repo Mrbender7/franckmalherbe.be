@@ -4,7 +4,7 @@ export const translations: Record<Lang, Record<string, string>> = {
   fr: {
     // Header
     "header.badge": "Portail Professionnel — Liège, Belgique",
-    "header.subtitle": "Créateur d'outils numériques & Expert en archivistique",
+    "header.subtitle": "Créateur d'outils numériques",
 
     // Intro
     "intro.title": "Présentation",
@@ -144,7 +144,7 @@ export const translations: Record<Lang, Record<string, string>> = {
   },
   en: {
     "header.badge": "Professional Portal — Liège, Belgium",
-    "header.subtitle": "Digital Tools Creator & Archival Science Expert",
+    "header.subtitle": "Digital Tools Creator",
     "intro.title": "About",
     "intro.text": "Based in Liège, Belgium. Passionate about rigorous data management and the development of ethical digital tools that respect user privacy. This portal centralizes my personal projects.",
     "projects.title": "My Projects",
@@ -262,7 +262,7 @@ export const translations: Record<Lang, Record<string, string>> = {
   },
   nl: {
     "header.badge": "Professioneel Portaal — Luik, België",
-    "header.subtitle": "Maker van digitale tools & Expert in archiefwetenschap",
+    "header.subtitle": "Maker van digitale tools",
     "intro.title": "Voorstelling",
     "intro.text": "Gevestigd in Luik, België. Gepassioneerd door rigoureus gegevensbeheer en de ontwikkeling van ethische digitale tools die de privacy van gebruikers respecteren. Dit portaal centraliseert mijn persoonlijke projecten.",
     "projects.title": "Mijn Projecten",
@@ -380,7 +380,7 @@ export const translations: Record<Lang, Record<string, string>> = {
   },
   de: {
     "header.badge": "Professionelles Portal — Lüttich, Belgien",
-    "header.subtitle": "Entwickler digitaler Werkzeuge & Experte für Archivwissenschaft",
+    "header.subtitle": "Entwickler digitaler Werkzeuge",
     "intro.title": "Vorstellung",
     "intro.text": "Ansässig in Lüttich, Belgien. Leidenschaftlich engagiert für rigoroses Datenmanagement und die Entwicklung ethischer digitaler Werkzeuge, die die Privatsphäre der Nutzer respektieren. Dieses Portal bündelt meine persönlichen Projekte.",
     "projects.title": "Meine Projekte",

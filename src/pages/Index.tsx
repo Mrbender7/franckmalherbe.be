@@ -67,26 +67,28 @@ const Index = () => {
           <h2 className="text-sm font-bold uppercase gradient-text-subtle tracking-widest text-center">
             {t("projects.title")}
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="space-y-6">
 
-            {/* Insudose Pro */}
+            {/* Insudose Pro — Application principale */}
             <FadeInOnScroll>
-            <div className="glass-card p-8 rounded-2xl space-y-4">
+            <div className="glass-card p-10 rounded-2xl space-y-5 ring-1 ring-primary/20">
               <div className="flex items-center gap-3">
-                <img src="/logo_insudose.png" alt="Insudose Pro" className="w-10 h-10 rounded-lg object-contain" />
-                <h3 className="text-xl font-bold gradient-text">Insudose Pro</h3>
+                <img src="/logo_insudose.png" alt="Insudose Pro" className="w-12 h-12 rounded-lg object-contain" />
+                <h3 className="text-2xl font-bold gradient-text">Insudose Pro</h3>
+                <span className="ml-auto px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold uppercase tracking-widest border border-primary/20">
+                  {t("insudose.badge")}
+                </span>
               </div>
-              <p className="text-muted-foreground text-sm leading-relaxed">
+              <p className="text-muted-foreground text-base leading-relaxed max-w-2xl">
                 {t("insudose.desc")}
               </p>
-              <div className="flex items-center justify-between pt-2">
-                <span className="text-xs font-bold text-primary uppercase tracking-widest">{t("insudose.badge")}</span>
-                <a href="/InsudosePro_v2.apk" download className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-semibold hover:opacity-90 transition-opacity">
+              <div className="flex items-center gap-4 pt-2">
+                <a href="/InsudosePro_v2.apk" download className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-primary text-primary-foreground text-sm font-semibold hover:opacity-90 transition-opacity">
                   <svg viewBox="0 0 24 24" className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
                   {t("insudose.download")}
                 </a>
               </div>
-              <div className="flex flex-col gap-1.5">
+              <div className="flex flex-wrap gap-x-6 gap-y-1.5">
                 <Link to="/insudose" className="text-xs text-muted-foreground hover:text-primary underline underline-offset-2 transition-colors">
                   {t("insudose.learnMore")}
                 </Link>
@@ -110,11 +112,14 @@ const Index = () => {
               <p className="text-muted-foreground text-sm leading-relaxed">
                 {t("radio.desc")}
               </p>
-              <div className="flex flex-col gap-3 pt-2">
+              <div className="flex items-center gap-4 pt-2">
                 <a href="https://radiosphere.be" target="_blank" rel="noopener noreferrer" className="text-sm text-primary hover:text-accent transition-colors font-medium">
                   {t("radio.visit")}
                 </a>
-                <GooglePlayBadge href="https://play.google.com/store/apps/details?id=com.fhm.radiosphere" />
+                <a href="https://play.google.com/store/apps/details?id=com.fhm.radiosphere" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-muted/50 border border-border text-foreground text-xs font-medium hover:bg-muted transition-colors">
+                  <svg viewBox="0 0 24 24" className="w-4 h-4" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.302 2.302c.774.387.774 1 0 1.387l-2.302 2.302-2.533-2.533 2.533-2.458zM5.864 2.658L16.8 8.991l-2.302 2.302-8.635-8.635z"/></svg>
+                  Google Play
+                </a>
               </div>
             </div>
             </FadeInOnScroll>
@@ -129,11 +134,14 @@ const Index = () => {
               <p className="text-muted-foreground text-sm leading-relaxed">
                 {t("podcast.desc")}
               </p>
-              <div className="flex flex-col gap-3 pt-2">
+              <div className="flex items-center gap-4 pt-2">
                 <a href="https://podcast.radiosphere.be" target="_blank" rel="noopener noreferrer" className="text-sm text-primary hover:text-accent transition-colors font-medium">
                   {t("podcast.visit")}
                 </a>
-                <GooglePlayBadge />
+                <div className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-muted/50 border border-border text-muted-foreground text-xs font-medium">
+                  <svg viewBox="0 0 24 24" className="w-4 h-4" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.302 2.302c.774.387.774 1 0 1.387l-2.302 2.302-2.533-2.533 2.533-2.458zM5.864 2.658L16.8 8.991l-2.302 2.302-8.635-8.635z"/></svg>
+                  {t("projects.comingSoon")}
+                </div>
               </div>
             </div>
             </FadeInOnScroll>
@@ -149,7 +157,10 @@ const Index = () => {
                 {t("night.desc")}
               </p>
               <div className="pt-2">
-                <GooglePlayBadge />
+                <div className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-muted/50 border border-border text-muted-foreground text-xs font-medium">
+                  <svg viewBox="0 0 24 24" className="w-4 h-4" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.302 2.302c.774.387.774 1 0 1.387l-2.302 2.302-2.533-2.533 2.533-2.458zM5.864 2.658L16.8 8.991l-2.302 2.302-8.635-8.635z"/></svg>
+                  {t("projects.comingSoon")}
+                </div>
               </div>
             </div>
             </FadeInOnScroll>
