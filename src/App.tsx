@@ -7,7 +7,7 @@ import Disclaimer from "./pages/Disclaimer";
 import Installation from "./pages/Installation";
 import InsudoseDetail from "./pages/InsudoseDetail";
 
-function App() {
+const App = () => {
   return (
     <LanguageProvider>
       <BrowserRouter>
