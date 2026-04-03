@@ -116,9 +116,8 @@ const Index = () => {
                 <a href="https://radiosphere.be" target="_blank" rel="noopener noreferrer" className="text-sm text-primary hover:text-accent transition-colors font-medium">
                   {t("radio.visit")}
                 </a>
-                <a href="https://play.google.com/store/apps/details?id=com.fhm.radiosphere" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-muted/50 border border-border text-foreground text-xs font-medium hover:bg-muted transition-colors">
-                  <svg viewBox="0 0 24 24" className="w-4 h-4" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.302 2.302c.774.387.774 1 0 1.387l-2.302 2.302-2.533-2.533 2.533-2.458zM5.864 2.658L16.8 8.991l-2.302 2.302-8.635-8.635z"/></svg>
-                  Google Play
+                <a href="https://play.google.com/store/apps/details?id=com.fhm.radiosphere" target="_blank" rel="noopener noreferrer">
+                  <img src="/google-play-badge.png" alt="Get it on Google Play" className="h-[40px] object-contain" />
                 </a>
               </div>
               <div className="flex items-center gap-3 pt-1">
