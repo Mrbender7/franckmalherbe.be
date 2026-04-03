@@ -262,7 +262,7 @@ export const translations: Record<Lang, Record<string, string>> = {
   },
   nl: {
     "header.badge": "Professioneel Portaal — Luik, België",
-    "header.subtitle": "Maker van digitale tools & Expert in archiefwetenschap",
+    "header.subtitle": "Maker van digitale tools",
     "intro.title": "Voorstelling",
     "intro.text": "Gevestigd in Luik, België. Gepassioneerd door rigoureus gegevensbeheer en de ontwikkeling van ethische digitale tools die de privacy van gebruikers respecteren. Dit portaal centraliseert mijn persoonlijke projecten.",
     "projects.title": "Mijn Projecten",
