@@ -144,7 +144,7 @@ export const translations: Record<Lang, Record<string, string>> = {
   },
   en: {
     "header.badge": "Professional Portal — Liège, Belgium",
-    "header.subtitle": "Digital Tools Creator & Archival Science Expert",
+    "header.subtitle": "Digital Tools Creator",
     "intro.title": "About",
     "intro.text": "Based in Liège, Belgium. Passionate about rigorous data management and the development of ethical digital tools that respect user privacy. This portal centralizes my personal projects.",
     "projects.title": "My Projects",
