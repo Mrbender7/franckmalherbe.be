@@ -62,9 +62,9 @@ export const translations: Record<Lang, Record<string, string>> = {
     "disclaimer.s3.p1": "L'application Insudose Pro traite des données sensibles liées à la santé. Ces données sont chiffrées localement (AES) et ne quittent jamais votre appareil. Aucune donnée n'est transmise à un serveur distant.",
     "disclaimer.s3.p2_before": "4. Insudose Pro n'est pas un dispositif médical agréé.",
     "disclaimer.s3.p2_after": " Il ne remplace en aucun cas l'avis d'un médecin ou d'un professionnel de santé. L'utilisateur est seul responsable des décisions thérapeutiques prises sur base des calculs fournis par l'application. Il est fortement conseillé de remplir le tableau de base en présence de votre diabétologue, qu'il ajuste aussi le taux d'insuline par rapport au grammage de glucides ingérés. La solution tableau de base + calcul d'insuline sur base des glucides doit toujours être supervisée par votre diabétologue.\n",
-    "disclaimer.s4.title": "4. Limitation de responsabilité",
+    "disclaimer.s4.title": "5. Limitation de responsabilité",
     "disclaimer.s4.text": "Franck Malherbe ne pourra être tenu responsable de tout dommage direct ou indirect résultant de l'utilisation des applications distribuées via ce site. L'utilisateur accepte d'utiliser ces applications à ses propres risques.",
-    "disclaimer.s5.title": "5. Contact",
+    "disclaimer.s5.title": "6. Contact",
     "disclaimer.s5.text": "Pour toute question relative à cette décharge ou aux applications : ",
     "disclaimer.updated": "Dernière mise à jour : mars 2026",
 
