@@ -267,7 +267,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     "intro.text": "Gevestigd in Luik, België. Gepassioneerd door rigoureus gegevensbeheer en de ontwikkeling van ethische digitale tools die de privacy van gebruikers respecteren. Dit portaal centraliseert mijn persoonlijke projecten.",
     "projects.title": "Mijn Projecten",
     "projects.comingSoon": "Binnenkort beschikbaar",
-    "insudose.desc": "Slimme insulinecalculator voor diabetesbeheer. Ethische en beveiligde aanpak. Lokale AES-versleuteling — uw gegevens verlaten nooit uw telefoon.",
+    "insudose.desc": "Slimme insulinecalculator voor diabetesbeheer. Ethische en beveiligde aanpak. Lokale AES-versleuteling — uw gegevens verlaten nooit uw telefoon.\nMaak een foto van uw bord, de AI-assistent geeft u het aantal koolhydraten, automatische dosisberekening!",
     "insudose.badge": "Ondertekend APK",
     "insudose.download": "Downloaden v2",
     "insudose.installGuide": "Installatiegids (onbekende bronnen) →",
