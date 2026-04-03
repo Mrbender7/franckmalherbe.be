@@ -15,7 +15,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     "projects.comingSoon": "Bientôt disponible",
 
     // Insudose
-    "insudose.desc": "Calculateur d'insuline intelligent pour le suivi du diabète. Approche éthique et sécurisée. Chiffrement local AES — les données ne quittent jamais votre téléphone.",
+    "insudose.desc": "Calculateur d'insuline intelligent pour le suivi du diabète. Approche éthique et sécurisée. Chiffrement local AES — les données ne quittent jamais votre téléphone.\nPrenez une photo de votre assiette l'assistant IA vous donne le nombre de glucides qu'elle contient, calcul de dose automatique !",
     "insudose.badge": "APK signé",
     "insudose.download": "Télécharger v2",
     "insudose.installGuide": "Guide d'installation (sources inconnues) →",
