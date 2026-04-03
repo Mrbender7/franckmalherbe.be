@@ -385,7 +385,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     "intro.text": "Ansässig in Lüttich, Belgien. Leidenschaftlich engagiert für rigoroses Datenmanagement und die Entwicklung ethischer digitaler Werkzeuge, die die Privatsphäre der Nutzer respektieren. Dieses Portal bündelt meine persönlichen Projekte.",
     "projects.title": "Meine Projekte",
     "projects.comingSoon": "Demnächst verfügbar",
-    "insudose.desc": "Intelligenter Insulinrechner für das Diabetesmanagement. Ethischer und sicherer Ansatz. Lokale AES-Verschlüsselung — Ihre Daten verlassen nie Ihr Telefon.",
+    "insudose.desc": "Intelligenter Insulinrechner für das Diabetesmanagement. Ethischer und sicherer Ansatz. Lokale AES-Verschlüsselung — Ihre Daten verlassen nie Ihr Telefon.\nMachen Sie ein Foto von Ihrem Teller, der KI-Assistent nennt Ihnen die Kohlenhydratmenge, automatische Dosisberechnung!",
     "insudose.badge": "Signierte APK",
     "insudose.download": "Herunterladen v2",
     "insudose.installGuide": "Installationsanleitung (unbekannte Quellen) →",
