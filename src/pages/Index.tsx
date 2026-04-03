@@ -117,7 +117,7 @@ const Index = () => {
                   {t("radio.visit")}
                 </a>
                 <a href="https://play.google.com/store/apps/details?id=com.fhm.radiosphere" target="_blank" rel="noopener noreferrer">
-                  <img src="/google-play-badge.png" alt="Get it on Google Play" className="h-[120px] object-contain" />
+                  <img src="/google-play-badge.png" alt="Get it on Google Play" className="h-[150px] object-contain" />
                 </a>
               </div>
               <div className="flex items-center gap-3 pt-1">
