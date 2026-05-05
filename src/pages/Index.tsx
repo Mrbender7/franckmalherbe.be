@@ -112,7 +112,7 @@ const Index = () => {
               <p className="text-muted-foreground text-sm leading-relaxed">
                 {t("radio.desc")}
               </p>
-              <div className="flex flex-col items-start gap-3 pt-2">
+              <div className="flex flex-col items-start gap-1 -my-3">
                 <GooglePlayBadge href="https://play.google.com/store/apps/details?id=com.fhm.radiosphere" />
                 <a href="https://radiosphere.be" target="_blank" rel="noopener noreferrer" className="text-sm text-primary hover:text-accent transition-colors font-medium">
                   {t("radio.visit")}
@@ -142,14 +142,11 @@ const Index = () => {
               <p className="text-muted-foreground text-sm leading-relaxed">
                 {t("podcast.desc")}
               </p>
-              <div className="flex items-center gap-4 pt-2">
+              <div className="flex flex-col items-start gap-1 -my-3">
+                <GooglePlayBadge href="https://play.google.com/store/apps/details?id=com.fhm.podcastsphere" />
                 <a href="https://podcast.radiosphere.be" target="_blank" rel="noopener noreferrer" className="text-sm text-primary hover:text-accent transition-colors font-medium">
                   {t("podcast.visit")}
                 </a>
-                <div className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-muted/50 border border-border text-muted-foreground text-xs font-medium">
-                  <svg viewBox="0 0 24 24" className="w-4 h-4" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.302 2.302c.774.387.774 1 0 1.387l-2.302 2.302-2.533-2.533 2.533-2.458zM5.864 2.658L16.8 8.991l-2.302 2.302-8.635-8.635z"/></svg>
-                  {t("projects.comingSoon")}
-                </div>
               </div>
             </div>
             </FadeInOnScroll>
