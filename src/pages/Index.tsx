@@ -18,7 +18,7 @@ const GooglePlayBadge = ({ href }: { href?: string }) => {
   if (href) {
     return (
       <a href={href} target="_blank" rel="noopener noreferrer">
-        <img src="/google-play-badge.png" alt="Get it on Google Play" className="h-[240px] object-contain" />
+        <img src="/google-play-badge.png" alt="Get it on Google Play" className="h-[240px] object-contain -my-16" />
       </a>
     );
   }
@@ -112,7 +112,7 @@ const Index = () => {
               <p className="text-muted-foreground text-sm leading-relaxed">
                 {t("radio.desc")}
               </p>
-              <div className="flex flex-col items-start gap-1 -my-3">
+              <div className="flex flex-col items-start gap-2">
                 <GooglePlayBadge href="https://play.google.com/store/apps/details?id=com.fhm.radiosphere" />
                 <a href="https://radiosphere.be" target="_blank" rel="noopener noreferrer" className="text-sm text-primary hover:text-accent transition-colors font-medium">
                   {t("radio.visit")}
@@ -142,7 +142,7 @@ const Index = () => {
               <p className="text-muted-foreground text-sm leading-relaxed">
                 {t("podcast.desc")}
               </p>
-              <div className="flex flex-col items-start gap-1 -my-3">
+              <div className="flex flex-col items-start gap-2">
                 <GooglePlayBadge href="https://play.google.com/store/apps/details?id=com.fhm.podcastsphere" />
                 <a href="https://podcast.radiosphere.be" target="_blank" rel="noopener noreferrer" className="text-sm text-primary hover:text-accent transition-colors font-medium">
                   {t("podcast.visit")}
