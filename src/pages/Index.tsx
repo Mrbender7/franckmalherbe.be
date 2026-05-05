@@ -107,7 +107,7 @@ const Index = () => {
             <div className="glass-card p-10 rounded-2xl space-y-5">
               <div className="flex items-center gap-3">
                 <img src="/logo_radiosphere.png" alt="RadioSphere.be" className="w-12 h-12 rounded-lg object-contain" />
-                <h3 className="text-xl font-bold gradient-text">RadioSphere.be</h3>
+                <h3 className="text-2xl font-bold gradient-text">RadioSphere.be</h3>
               </div>
               <p className="text-muted-foreground text-base leading-relaxed">
                 {t("radio.desc")}
@@ -137,7 +137,7 @@ const Index = () => {
             <div className="glass-card p-10 rounded-2xl space-y-5">
               <div className="flex items-center gap-3">
                 <img src="/logo_podcastsphere.png" alt="Podcast Sphere" className="w-12 h-12 rounded-lg object-contain" />
-                <h3 className="text-xl font-bold gradient-text">Podcast Sphere</h3>
+                <h3 className="text-2xl font-bold gradient-text">Podcast Sphere</h3>
               </div>
               <p className="text-muted-foreground text-base leading-relaxed">
                 {t("podcast.desc")}
@@ -156,7 +156,7 @@ const Index = () => {
             <div className="glass-card p-10 rounded-2xl space-y-5">
               <div className="flex items-center gap-3">
                 <img src="/logo_nightsphere.png" alt="Night Sphere" className="w-12 h-12 rounded-lg object-contain" />
-                <h3 className="text-xl font-bold gradient-text">Night Sphere</h3>
+                <h3 className="text-2xl font-bold gradient-text">Night Sphere</h3>
               </div>
               <p className="text-muted-foreground text-base leading-relaxed">
                 {t("night.desc")}
