@@ -18,7 +18,7 @@ const GooglePlayBadge = ({ href }: { href?: string }) => {
   if (href) {
     return (
       <a href={href} target="_blank" rel="noopener noreferrer">
-        <img src="/google-play-badge.png" alt="Get it on Google Play" className="h-[240px] object-contain -my-16" />
+        <img src="/google-play-badge.png" alt="Get it on Google Play" className="h-14 object-contain -my-3" />
       </a>
     );
   }
