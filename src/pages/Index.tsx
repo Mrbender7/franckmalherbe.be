@@ -104,12 +104,12 @@ const Index = () => {
 
             {/* Radio Sphere */}
             <FadeInOnScroll delay={0.1}>
-            <div className="glass-card p-8 rounded-2xl space-y-4">
+            <div className="glass-card p-10 rounded-2xl space-y-5">
               <div className="flex items-center gap-3">
-                <img src="/logo_radiosphere.png" alt="RadioSphere.be" className="w-10 h-10 rounded-lg object-contain" />
+                <img src="/logo_radiosphere.png" alt="RadioSphere.be" className="w-12 h-12 rounded-lg object-contain" />
                 <h3 className="text-xl font-bold gradient-text">RadioSphere.be</h3>
               </div>
-              <p className="text-muted-foreground text-sm leading-relaxed">
+              <p className="text-muted-foreground text-base leading-relaxed">
                 {t("radio.desc")}
               </p>
               <div className="flex flex-col items-start gap-2">
@@ -134,12 +134,12 @@ const Index = () => {
 
             {/* Podcast Sphere */}
             <FadeInOnScroll delay={0.2}>
-            <div className="glass-card p-8 rounded-2xl space-y-4">
+            <div className="glass-card p-10 rounded-2xl space-y-5">
               <div className="flex items-center gap-3">
-                <img src="/logo_podcastsphere.png" alt="Podcast Sphere" className="w-10 h-10 rounded-lg object-contain" />
+                <img src="/logo_podcastsphere.png" alt="Podcast Sphere" className="w-12 h-12 rounded-lg object-contain" />
                 <h3 className="text-xl font-bold gradient-text">Podcast Sphere</h3>
               </div>
-              <p className="text-muted-foreground text-sm leading-relaxed">
+              <p className="text-muted-foreground text-base leading-relaxed">
                 {t("podcast.desc")}
               </p>
               <div className="flex flex-col items-start gap-2">
@@ -153,12 +153,12 @@ const Index = () => {
 
             {/* Night Sphere */}
             <FadeInOnScroll delay={0.3}>
-            <div className="glass-card p-8 rounded-2xl space-y-4">
+            <div className="glass-card p-10 rounded-2xl space-y-5">
               <div className="flex items-center gap-3">
-                <img src="/logo_nightsphere.png" alt="Night Sphere" className="w-10 h-10 rounded-lg object-contain" />
+                <img src="/logo_nightsphere.png" alt="Night Sphere" className="w-12 h-12 rounded-lg object-contain" />
                 <h3 className="text-xl font-bold gradient-text">Night Sphere</h3>
               </div>
-              <p className="text-muted-foreground text-sm leading-relaxed">
+              <p className="text-muted-foreground text-base leading-relaxed">
                 {t("night.desc")}
               </p>
               <div className="pt-2">
@@ -188,7 +188,7 @@ const Index = () => {
         </section>
 
         {/* Confidentialité */}
-        <section className="glass-card p-8 rounded-2xl space-y-4">
+        <section className="glass-card p-10 rounded-2xl space-y-5">
           <h2 className="text-sm font-bold uppercase gradient-text-subtle tracking-widest">
             {t("privacy.title")}
           </h2>
