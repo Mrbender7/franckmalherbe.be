@@ -112,12 +112,10 @@ const Index = () => {
               <p className="text-muted-foreground text-sm leading-relaxed">
                 {t("radio.desc")}
               </p>
-              <div className="flex items-center gap-4 pt-2 flex-wrap">
+              <div className="flex flex-col items-start gap-3 pt-2">
+                <GooglePlayBadge href="https://play.google.com/store/apps/details?id=com.fhm.radiosphere" />
                 <a href="https://radiosphere.be" target="_blank" rel="noopener noreferrer" className="text-sm text-primary hover:text-accent transition-colors font-medium">
                   {t("radio.visit")}
-                </a>
-                <a href="https://play.google.com/store/apps/details?id=com.fhm.radiosphere" target="_blank" rel="noopener noreferrer">
-                  <img src="/google-play-badge.png" alt="Get it on Google Play" className="h-[150px] object-contain" />
                 </a>
               </div>
               <div className="flex items-center gap-3 pt-1">
